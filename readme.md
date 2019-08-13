@@ -5,7 +5,7 @@
 **_Utilizando ESLINT_**
 no visual studio instale o puguin do ESLINT\
 no visual studio instale extensão Prettier - Code formatter\
-no visual studio instale o plugin prettier-standard\
+no visual studio instale o plugin Prettier-Standard - JavaScript formatter\
 iniciar eslint: .\node_modules\.bin\eslint --init \
 guias de estilo: popular/standard\
 abrir papeleta cmd: ctrl+shift+p procurar por setting.json adicionar a chave abaixo:\
@@ -14,7 +14,7 @@ abrir papeleta cmd: ctrl+shift+p procurar por setting.json adicionar a chave aba
 "[javascript]": {
 "editor.defaultFormatter": "numso.prettier-standard-vscode"
 }\
-Para permitir o eslint corrigir automatica após salvar erros baseado com o style guide escolhido.\
+Para permitir o eslint corrigir de forma automatica após salvar erros baseado com o style guide escolhido.\
 
 **_Utilizando Nodemon para reload Server_**
 
