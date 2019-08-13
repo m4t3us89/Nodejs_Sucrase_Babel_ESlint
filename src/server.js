@@ -14,8 +14,8 @@ class Server {
   }
 
   init () {
-    this.dotenvInit()
     this.sentryInit()
+    this.dotenvInit()
     this.middlewaresBeforeRoutes()
     this.routes()
     this.middlewaresAfterRoutes()
