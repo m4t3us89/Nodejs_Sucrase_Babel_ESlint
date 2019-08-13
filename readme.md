@@ -1,22 +1,25 @@
-Utilizando Babel para Build
+**_Utilizando Babel para Build_**
 
-Utilizando Sucrase para Dev ECMASCRIPT6
+**_Utilizando Sucrase para Dev ECMASCRIPT6_**
 
-Utilizando ESLINT
-no visual studio instale o puguin do ESLINT
-no visual studio instale extensão Prettier - Code formatter
-no visual studio instale o plugin prettier-standard
-iniciar eslint: .\node_modules\.bin\eslint --init  
-guias de estilo: popular/standard
-abrir papeleta cmd: ctrl+shift+p procurar por setting.json adicionar a chave abaixo:
-"editor.formatOnSave" : true
-"prettier.eslintIntegration": true
-Para permitir o eslint corrigir automatica após salvar erros baseado com o style guide escolhido.
+**_Utilizando ESLINT_**
+no visual studio instale o puguin do ESLINT\
+no visual studio instale extensão Prettier - Code formatter\
+no visual studio instale o plugin prettier-standard\
+iniciar eslint: .\node_modules\.bin\eslint --init \
+guias de estilo: popular/standard\
+abrir papeleta cmd: ctrl+shift+p procurar por setting.json adicionar a chave abaixo:\
+"editor.formatOnSave" : true\
+"prettier.eslintIntegration": true\
+"[javascript]": {
+"editor.defaultFormatter": "numso.prettier-standard-vscode"
+}\
+Para permitir o eslint corrigir automatica após salvar erros baseado com o style guide escolhido.\
 
-Utilizando Nodemon para reload Server
+**_Utilizando Nodemon para reload Server_**
 
-Utilizando Morgan para logs da requisição
+**_Utilizando Morgan para logs da requisição_**
 
-Utilizando dotenv para configurar variaveis de ambiente
+**_Utilizando dotenv para configurar variaveis de ambiente_**
 
-Utilizando cors para configurar os cors da requisição
+**_Utilizando cors para configurar os cors da requisição_**
