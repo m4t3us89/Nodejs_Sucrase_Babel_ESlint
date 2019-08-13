@@ -14,6 +14,6 @@ app.use(express.urlencoded({ extended: true }))
 
 routesRoot.forEach(router => router(app))
 
-app.listen(8000, () => {
-  console.log('On Server')
+app.listen(process.ENV || 8000, () => {
+  console.log(`On Server ${process.ENV || 8000}`)
 })
