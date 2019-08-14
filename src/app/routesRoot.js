@@ -1,3 +1,4 @@
 import routesTodo from './todo/routesTodo'
+import auth from './auth'
 
-export default [routesTodo]
+export default [routesTodo, auth]

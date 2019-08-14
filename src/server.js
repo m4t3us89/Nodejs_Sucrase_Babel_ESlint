@@ -24,9 +24,7 @@ function init () {
 
   app.use(Sentry.Handlers.errorHandler())
 
-  app.listen(process.ENV || 3333, () =>
-    console.log(`On Server ${process.ENV || 3333}`)
-  )
+  app.listen(process.ENV || 3333)
 }
 init()
 
