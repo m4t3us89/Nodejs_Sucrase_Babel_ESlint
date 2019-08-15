@@ -24,7 +24,7 @@ function init () {
 
   app.use(Sentry.Handlers.errorHandler())
 
-  app.listen(process.ENV || 3333)
+  app.listen(process.env.PORT || 3333)
 }
 init()
 
