@@ -4,6 +4,6 @@ import verifyToken from '../../middlewares/jwt'
 
 const router = express.Router()
 
-router.get('', verifyToken, Todo.list)
+router.get('', Todo.list)
 
-export default app => app.use('/todo', router)
+export default app => app.use('/todo', verifyToken, router)
