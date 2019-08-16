@@ -1,6 +1,8 @@
+'use strict'
+
 module.exports = {
   up: (queryInterface, DataTypes) => {
-    return queryInterface.createTable('User', {
+    return queryInterface.createTable('Users', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -32,6 +34,6 @@ module.exports = {
   },
 
   down: queryInterface => {
-    return queryInterface.dropTable('User')
+    return queryInterface.dropTable('Users')
   }
 }
