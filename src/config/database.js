@@ -1,8 +1,20 @@
+const { config } = require('dotenv')
+config()
+
+const {
+  BD_USERNAME,
+  BD_PASSWORD,
+  BD_DATABASE,
+  BD_HOST,
+  BD_DIALECT,
+  BD_PORT
+} = process.env
+
 module.exports = {
-  username: 'root',
-  password: 'password',
-  database: 'crud_sequelize',
-  host: '127.0.0.1',
-  dialect: 'mysql',
-  port: ''
+  username: BD_USERNAME,
+  password: BD_PASSWORD,
+  database: BD_DATABASE,
+  host: BD_HOST,
+  dialect: BD_DIALECT,
+  port: BD_PORT
 }
